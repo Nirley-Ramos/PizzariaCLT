@@ -445,6 +445,186 @@ padding: 2rem;
     text-decoration: line-through;
 }
 
+/* EMPRESA */
+
+.empresa{
+    background-color: red;
+}
+
+.empresa .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    background: red;
+    align-items: center;
+}
+.empresa .row .empresa-img{
+    flex: 1 1 32rem;
+}
+
+.empresa .row .empresa-img img{
+    width: 100%;
+    box-shadow: 0 5rem 1rem rgba(0,0,0,0.1);   
+}
+.empresa .row .content{
+    flex: 1 1 50rem;
+}
+.empresa .row .content h3{
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.empresa .row .content  h3 span{
+    color: yellow;
+}
+
+.empresa .row .content p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem 0;
+    line-height: 2;
+}
+.empresa .btn{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.empresa .btn:hover{
+    background: #fffb00;
+    color: #130f40;
+    border:  1px solid #130f40;
+}
+
+/*BLOG*/
+.blogs .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 4rem;
+}
+.blogs .box-container .box{
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+}
+
+.blogs .box-container .box img{
+    width: 100%;
+    height: 25rem;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+
+.blogs .box-container .box .icons{
+    display: inline-block;
+    top: -2rem;
+    background: red;
+    padding: 1rem;
+    border-radius: .5rem;
+    position: relative;
+}
+
+.blogs .box-container .box .icons a{
+    color: #fff;
+    font-size: 1.4rem;
+    margin: 0 1rem;
+}
+
+.blogs .box-container .box .icons a:hover{
+    color: yellow;
+}
+
+.blogs .box-container .box .icons a i{
+    color: #130f40;
+    padding-right: .5rem;
+}
+
+.blogs .box-container .box h3{
+    font-size: 2rem;
+    color: #130f40;
+    
+}
+
+.blogs .box-container .box p{
+    color: #777;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+/* RODAPE */
+.rodape{
+    background: red;
+    text-align: center;
+}
+
+.rodape .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.rodape .box-container .box h3{
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.rodape .box-container .box p{
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.rodape .box-container .box .rede-sociais{
+    margin-top: 1rem;
+}
+
+.rodape .box-container .box .rede-sociais a{
+    color: #fff;
+    border: .1rem solid #fff;
+    border-radius: 10%;
+    width: 4.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-right: .3rem;
+}
+.rodape .box-container .box .rede-sociais a:hover{
+    background-color: #fffb00;
+    color: #130f40;
+    border: .1rem solid #130f40;
+}
+
+.rodape .box-container .box .link{
+    display: block;
+    font-size: 1.7rem;
+    line-height: 2;
+    padding: .5rem 0;
+    text-decoration: underline;
+    color: #fff;
+}
+.rodape .box-container .box .link:hover{
+    color: yellow;
+}
+
+.direitos{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    text-transform: capitalize;
+    border-top: .1rem solid #fff;
+}
+
+.direitos span{
+    color: yellow;
+}
+
 /* CELULAR */
 @Media(max-width:991px){
     html{
