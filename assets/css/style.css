@@ -693,6 +693,60 @@ padding: 2rem;
     display: flex;
 }
 
+/* MENU DE COMPRAS */
+.menu .slider .titulo{
+    padding: 1rem;
+    font-size: 3rem;
+    color: #fff;
+    background-color: red;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.menu .slider .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.menu .slider .box-container .box{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex: 1 1 38rem;
+   gap: 1rem;
+   background-color: #eee;
+   padding: 2rem;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+}
+
+.menu .slider .box-container .box:hover{
+    transform: scale(.9);
+    cursor: pointer;
+}
+
+.menu .slider .box-container .box h3{
+font-size: 2.2rem;
+color: #130f40;
+padding-bottom: .5rem;
+}
+
+.menu .slider .box-container .box p{
+font-size: 1.4rem;
+color: #777;
+line-height: 2;
+}
+
+.menu .slider .box-container .box .valor{
+    font-size: 2.2rem;
+    color: red;
+}
+
+
+
+
+
 /* CELULAR */
 @Media(max-width:991px){
     html{
